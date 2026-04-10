@@ -21,11 +21,9 @@ Para cada um dos 11 sistemas, o projeto entrega:
 
 - Framework Web: Streamlit
 
-- Modelagem: Mermaid.js / UML
+- Modelagem: python / UML
 
 - IA Generativa: Utilizada para refatoração de código e automação de lógica complexa.
-
-- Ambiente: Linux Mint (Desenvolvimento e Testes)
 
 # 👨‍💻 Autor
 - Vytor Rodrigues Desenvolvedor Junior | Acadêmico de Análise e Desenvolvimento de Sistemas Focado no ecossistema Python e integração de Inteligência Artificial com Streamlit.
