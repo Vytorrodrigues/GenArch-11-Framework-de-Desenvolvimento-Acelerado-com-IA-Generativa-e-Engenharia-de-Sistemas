@@ -64,16 +64,19 @@ projeto_Name/
 - Requisitos.md - Documentação detalhando os requisitos funcionais e não funcionais
 - UML.png - Diagrama UML contendo a modelagem de classes do sistema
 
-
-# 🛠️ O que deve ser feito
+# 🛠️ O que deve foi feito
 
 Para cada exercício:
 
-Foi identificado: Classes Atributos Métodos Modelar: Relacionamentos entre classes Multiplicidades (quando necessário) (Opcional) Criar: Diagramas UML (ex: Diagrama de Classes) 🧩 Tecnologias Sugeridas
+- Identificado: Classes Atributos Métodos 
+- Modelado: Relacionamentos entre classes Multiplicidades (quando necessário) (Opcional) 
+- Criado: Diagramas UML (ex: Diagrama de Classes) 
 
-Podendo implementar os exercícios utilizando qualquer linguagem orientada a objetos:
+# 🧩 Tecnologias Sugeridas
 
-Java, Python, C#, JavaScript. Além das UML Tools: Draw.io StarUML Lucidchart
+- Os projetos podem ser implementados utilizando qualquer linguagem orientada a objetos:
+- Java, Python, C#, JavaScript. 
+- UML Tools: Draw.io StarUML Lucidchart
 
 # 🚀 Como usar este repositório Clone o projeto: 
 - git clone:
