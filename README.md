@@ -51,6 +51,20 @@ Sistema de agendamento com: Controle de salas Realocação de reuniões Consulta
 - 11: 🧬 Herança
 Refatoração de classes (Funcionário e Cliente) usando herança.
 
+# 📂 Estrutura dos projetos:
+
+projeto_Name/
+├── app.py
+├── LayoutApp.png
+├── Requisitos.md
+└── UML.png 
+
+- app.py: Arquivo principal com o código-fonte e lógica da aplicação
+- Layout.png - Referência visual demonstrando o design da interface do usuário
+- Requisitos.md - Documentação detalhando os requisitos funcionais e não funcionais
+- UML.png - Diagrama UML contendo a modelagem de classes do sistema
+
+
 # 🛠️ O que deve ser feito
 
 Para cada exercício:
