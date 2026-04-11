@@ -68,6 +68,13 @@ https://github.com/Vytorrodrigues/GenArch-11-Framework-de-Desenvolvimento-Aceler
 - Escolha um exercício Modele a solução: Pode ser em código ou UML (Opcional) 
 - Organize por pastas: /exercicio-01-conta-luz /exercicio-02-texto-saida
 
+# ⚙️ Etapas para execução dos projetos:
+
+- Após baixar os arquivos, tenha certeza de ter o python instalado no  sistema
+- Abra o arquivo no seu editor de código e execute os seguintes comandos no terminal:
+- 1- Instale as depêndencias: pip install streamlit pandas
+- 2- Execute o arquivo no terminal: streamlit run app.py
+
 # 📚 Referência Acadêmica
 
 Material baseado nos conteúdos da disciplina:
