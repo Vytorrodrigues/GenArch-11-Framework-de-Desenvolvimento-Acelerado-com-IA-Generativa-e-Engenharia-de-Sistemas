@@ -81,9 +81,7 @@ Para cada exercício:
 # 🚀 Como usar este repositório Clone o projeto: 
 - git clone:
 https://github.com/Vytorrodrigues/GenArch-11-Framework-de-Desenvolvimento-Acelerado-com-IA-Generativa-e-Engenharia-de-Sistemas/tree/main 
-
-- Escolha um exercício Modele a solução: Pode ser em código ou UML (Opcional) 
-- Organize por pastas: /exercicio-01-conta-luz /exercicio-02-texto-saida
+- Escolha seu projeto e siga as etapas de execução
 
 # ⚙️ Etapas para execução dos projetos:
 
@@ -94,11 +92,10 @@ https://github.com/Vytorrodrigues/GenArch-11-Framework-de-Desenvolvimento-Aceler
 
 # 📚 Referência Acadêmica
 
-Material baseado nos conteúdos da disciplina:
-
-Análise e Projeto de Sistemas Curso: Análise e Desenvolvimento de Sistemas
-Instituição: UNIPÊ 
-Professor: Ricardo Roberto de Lima
+- Indicação de livro: Utilizando UML e Padrões: Uma Introdução à Análise e ao Projeto Orientados a Objetos e ao Desenvolvimento Iterativo Autor: Craig Larman
+- Material baseado nos conteúdos da disciplina: Análise e Projeto de Sistemas Curso: Análise e Desenvolvimento de Sistemas
+- Instituição: UNIPÊ 
+- Professor: Ricardo Roberto de Lima
 
 # 👨‍💻 Autor
 - Vytor Rodrigues Desenvolvedor Junior
