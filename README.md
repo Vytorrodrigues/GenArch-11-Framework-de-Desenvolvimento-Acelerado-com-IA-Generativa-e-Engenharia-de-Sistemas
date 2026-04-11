@@ -1,33 +1,81 @@
 # GenArch-11-Framework-de-Desenvolvimento-Acelerado-com-IA-Generativa-e-Engenharia-de-Sistemas
 
-# 📌 Sobre o Projeto
-- O GenArch-11 é um ecossistema de desenvolvimento que une os fundamentos da Engenharia de Software com o poder da Inteligência Artificial Generativa. O projeto consiste na concepção, modelagem e implementação de 11 aplicações independentes, utilizando Python e Streamlit.
+# 📘 Projeto de Modelagem UML
 
-O diferencial deste repositório é o fluxo de trabalho "Doc-to-Code": cada aplicação nasce de uma análise rigorosa de requisitos e diagramas de classes, que servem como prompt estruturado para a geração de código assistida por IA.
+- Análise Orientada a Objetos – Classes, Atributos e Métodos
 
-# ⚙️ Escopo das Aplicações
-Para cada um dos 11 sistemas, o projeto entrega:
+- Este repositório contém uma coleção de exercícios práticos focados em Análise e Projeto de Sistemas, com ênfase na identificação de classes, atributos, métodos e relacionamentos em diferentes cenários do mundo real.
 
-- Levantamento de Requisitos: Definição detalhada de Requisitos Funcionais (RF) e Não Funcionais (RNF).
+- Os exercícios foram desenvolvidos no contexto acadêmico do curso de Análise e Desenvolvimento de Sistemas da UNIPÊ.
 
-- Modelagem UML: Diagramas de classes que regem a lógica de negócio e os relacionamentos.
+# 🎯 Objetivo
 
-- Desenvolvimento Assistido por IA: Implementação em Python utilizando técnicas avançadas de Prompt Engineering.
+- Praticar os conceitos fundamentais de Programação Orientada a Objetos (POO) e Modelagem UML, incluindo:
 
-- Interface de Usuário: Front-end reativo e dashboards interativos com Streamlit.
+- Identificação de classes Definição de atributos Definição de métodos Relacionamentos entre classes Abstração de problemas reais para modelos computacionais
 
-# 🚀 Tecnologias Utilizadas
-- Linguagem: Python 3.x
+# 📂 Estrutura dos Exercícios
 
-- Framework Web: Streamlit
+- O material é composto por 11 projetos, cada um representando um cenário prático:
 
-- Modelagem: Mermaid.js / UML
+- 1: 💡 Conta de Luz
+Controle mensal de consumo de energia elétrica.
 
-- IA Generativa: Utilizada para refatoração de código e automação de lógica complexa.
+- 2: 📝TextoSaída
+Configuração de exibição de textos (cor, tamanho, tipo de componente).
 
-- Ambiente: Linux Mint (Desenvolvimento e Testes)
+- 3: 🧍 Boneco em Movimento
+Movimentação de um objeto em coordenadas (X, Y) com direção.
+
+- 4: 💊 Horário de Remédios
+Sistema de controle de medicação com geração automática de horários.
+
+- 5: 💰 Gastos Diários
+Controle financeiro com agrupamentos por tipo e forma de pagamento.
+
+- 6: 🧾 Comanda Eletrônica (PDV)
+Sistema de consumo em padaria com cálculo automático de total.
+
+- 7: 🛒 Lista de Compras
+Planejamento mensal de compras com variação de quantidades e preços.
+
+- 8: 💿 Coleção de CDs
+Cadastro simples de CDs (artista, título, ano).
+
+- 9: 🎵 Coleção de CDs (Avançado)
+Inclui: Múltiplos artistas (coletâneas) Lista de músicas Relatórios por artista e música
+
+- 10: 🏢 Sala de Reunião
+Sistema de agendamento com: Controle de salas Realocação de reuniões Consulta de disponibilidade
+
+- 11: 🧬 Herança
+Refatoração de classes (Funcionário e Cliente) usando herança.
+
+# 🛠️ O que deve ser feito
+
+Para cada exercício:
+
+Foi identificado: Classes Atributos Métodos Modelar: Relacionamentos entre classes Multiplicidades (quando necessário) (Opcional) Criar: Diagramas UML (ex: Diagrama de Classes) 🧩 Tecnologias Sugeridas
+
+Podendo implementar os exercícios utilizando qualquer linguagem orientada a objetos:
+
+Java, Python, C#, JavaScript. Além das UML Tools: Draw.io StarUML Lucidchart
+
+# 🚀 Como usar este repositório Clone o projeto: 
+- git clone:
+https://github.com/Vytorrodrigues/GenArch-11-Framework-de-Desenvolvimento-Acelerado-com-IA-Generativa-e-Engenharia-de-Sistemas/tree/main 
+
+- Escolha um exercício Modele a solução: Pode ser em código ou UML (Opcional) 
+- Organize por pastas: /exercicio-01-conta-luz /exercicio-02-texto-saida
+
+# 📚 Referência Acadêmica
+
+Material baseado nos conteúdos da disciplina:
+
+Análise e Projeto de Sistemas Curso: Análise e Desenvolvimento de Sistemas
+Instituição: UNIPÊ 
+Professor: Ricardo Roberto de Lima
 
 # 👨‍💻 Autor
-- Vytor Rodrigues Desenvolvedor Junior | Acadêmico de Análise e Desenvolvimento de Sistemas Focado no ecossistema Python e integração de Inteligência Artificial com Streamlit.
-
-- Este projeto faz parte do portfólio de estudos avançados em Análise e Projeto de Sistemas.
+- Vytor Rodrigues Desenvolvedor Junior
+- Aplicação focada no desenvolvimento de sistemas com o ecossistema Python e integração de Inteligência Artificial com Streamlit.
