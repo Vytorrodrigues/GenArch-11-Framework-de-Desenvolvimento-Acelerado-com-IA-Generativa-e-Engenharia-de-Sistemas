@@ -1,0 +1,62 @@
+{
+    "musicos": [
+        {
+            "nome": "Coldplay"
+        },
+        {
+            "nome": "Adele"
+        }
+    ],
+    "musicas": [
+        {
+            "titulo": "Yellow"
+        },
+        {
+            "titulo": "Hello"
+        }
+    ],
+    "cds": [
+        {
+            "titulo": "Parachutes",
+            "ano": 2000,
+            "coletanea": false,
+            "duplo": false,
+            "musicos": [
+                "Coldplay"
+            ],
+            "faixas": [
+                {
+                    "ordem": 1,
+                    "duracao": 4.5,
+                    "musica": "Yellow"
+                },
+                {
+                    "ordem": 1,
+                    "duracao": 0.1,
+                    "musica": "Yellow"
+                },
+                {
+                    "ordem": 1,
+                    "duracao": 0.1,
+                    "musica": "Yellow"
+                }
+            ]
+        },
+        {
+            "titulo": "25",
+            "ano": 2015,
+            "coletanea": false,
+            "duplo": false,
+            "musicos": [
+                "Adele"
+            ],
+            "faixas": [
+                {
+                    "ordem": 1,
+                    "duracao": 4.8,
+                    "musica": "Hello"
+                }
+            ]
+        }
+    ]
+}
