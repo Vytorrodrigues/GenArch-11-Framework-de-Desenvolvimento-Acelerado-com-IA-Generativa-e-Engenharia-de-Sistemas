@@ -65,7 +65,7 @@ necessárias e aplicações para funcionar agora mesmo.
 
 Captura da aplicação rodando: boneco **"Vytor"** posicionado em **X=6, Y=8**, direção **Esquerda**, com rastro do caminho percorrido visível no grid 11×11.
 
-![Projeto rodando](./assets/LayoutBoneco.png)
+![Projeto rodando](./assets/Tela.png)
 
 ---
 

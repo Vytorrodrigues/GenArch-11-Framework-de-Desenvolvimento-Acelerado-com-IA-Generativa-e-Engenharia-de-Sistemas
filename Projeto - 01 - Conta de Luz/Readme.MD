@@ -1,4 +1,4 @@
-# 💡 PROJETO – Gestão de Conta de Luz
+# 🖋️ TEXTOSAIDA – Configurador de Componente de Texto
 
 > Projeto de Engenharia de Software · Python + Streamlit
 
@@ -6,27 +6,48 @@
 
 ## 📐 1. Diagrama de Classes
 
-O diagrama abaixo descreve a estrutura do sistema, utilizando uma classe controladora SistemasContas para gerenciar uma lista de objetos da classe ContaDeLuz.
+O diagrama abaixo foi elaborado em UML e descreve a estrutura do sistema com a classe **TextoSaida**, que encapsula texto, estilo tipográfico e componente de destino sem herança de frameworks visuais.
 
-![Diagrama de Classes](./assets/UML_ContaLuz.png)
+![Diagrama de Classes](./assets/Diagrama_de_Classes-EX01.png)
+
+| Elemento | Tipo | Descrição |
+|---|---|---|
+| `TextoSaida` | Classe | Entidade central que gerencia texto, estilo e tipo de componente (RNF01) |
+| `texto` | String (privado) | RF01 – Conteúdo textual a ser exibido |
+| `tamanhoLetra` | int (privado) | RF02 – Tamanho da fonte em pixels (8–72 px) |
+| `corFont` | String (privado) | RF03 / RF06 – Cor da fonte, restrita à paleta de 5 cores (RNF02) |
+| `corFundo` | String (privado) | RF04 / RF06 – Cor do fundo, restrita à paleta de 5 cores (RNF02) |
+| `tipoComp` | String (privado) | RF05 – Componente de destino: `label`, `edit` ou `memo` (RNF03) |
+| `configurarTexto()` | Método público | RF01 – Define o conteúdo do texto de saída |
+| `defTamanhoLetr()` | Método público | RF02 – Define o tamanho da fonte, com clamp entre 8 e 72 px |
+| `defCorFonte()` | Método público | RF03 / RF06 – Define a cor da fonte com validação de paleta |
+| `defCorFundo()` | Método público | RF04 / RF06 – Define a cor do fundo com validação de paleta |
+| `defTipoComponent()` | Método público | RF05 – Define o componente de destino com validação de tipo |
+| `exibir()` | Método público | Retorna dicionário com todos os atributos para renderização visual |
 
 ---
 
 ## ✅ 2. Requisitos Funcionais (RF)
 
-- RF01: Registrar Conta de Luz 
-- RF02: Identificar Menor Consumo 
-- RF03: Identificar Maior Consumo 
-- RF04: Armazenar Histórico 
-- RF05: Realizar media dos consumos
+| ID | Descrição |
+|---|---|
+| RF01 | Permitir a inserção de um conteúdo de texto a ser exibido. |
+| RF02 | Permitir a configuração do tamanho da fonte (8–72 px). |
+| RF03 | Permitir a escolha da cor da fonte entre cinco opções: preto, branco, azul, amarelo e cinza. |
+| RF04 | Permitir a escolha da cor de fundo entre cinco opções: preto, branco, azul, amarelo e cinza. |
+| RF05 | Permitir ao usuário selecionar o componente de destino: Label, Edit ou Memo. |
+| RF06 | Validar se as cores de fonte e de fundo escolhidas estão dentro da paleta permitida. |
+
 ---
 
-## 🔒 3. Requisitos Não Funcionais (NRF)
+## 🔒 3. Requisitos Não Funcionais (RNF)
 
-- RNF01: O sistema deve ter uma interface simples e intuitiva
-- RNF02: Os valores de "Maior" e "Menor" consumo devem ser destacados visualmente
-- RNF03: O sistema deve garantir que os cálculos de média e consumo sejam precisos
-- RNF04: O sistema não deve permitir a entrada de valores negativos para o "KW gasto" ou "Valor a pagar"
+| ID | Descrição |
+|---|---|
+| RNF01 | **Independência de plataforma** — a classe `TextoSaida` não herda de classes visuais de nenhum framework; mantém foco conceitual puro. |
+| RNF02 | **Restrição de domínio** — as cores são estritamente limitadas ao conjunto: preto, branco, azul, amarelo e cinza; qualquer valor fora desse conjunto gera `ValueError`. |
+| RNF03 | **Usabilidade** — os tipos de componente permitidos são exclusivamente `label`, `edit` e `memo`; tipos inválidos são rejeitados com mensagem de erro. |
+| RNF04 | **Extensibilidade** — novos tipos de componentes podem ser adicionados ao conjunto `COMPONENTES_PERMITIDOS` sem alterar a lógica dos atributos da classe. |
 
 ---
 
@@ -54,9 +75,9 @@ necessárias e aplicações para funcionar agora mesmo.
 
 ## 🖥️ 5. Projeto em Execução
 
-A aplicação em execução apresenta uma interface web responsiva onde o usuário cadastra suas faturas de luz através de um formulário lateral. Ao enviar os dados, o sistema valida as informações, bloqueando valores negativos, e armazena o registro na memória temporária da sessão. Imediatamente, o painel principal é atualizado exibindo todo o histórico de contas cadastradas em uma tabela interativa gerada com Pandas. Simultaneamente, cards visuais coloridos destacam em tempo real os cálculos de maior consumo, menor consumo e a média geral de gastos.
+Captura da aplicação rodando: painel de configuração à esquerda com controles de texto, tamanho, cores e tipo de componente — à direita, pré-visualização em tempo real do componente simulado com badge de tipo e espelho do estado do objeto.
 
-![Projeto rodando](./assets/LayoutApp.png)
+![Projeto rodando](./assets/img-projeto.png)
 
 ---
 
@@ -74,10 +95,10 @@ Salve o arquivo `app.py` em uma pasta de sua preferência:
 
 ```
 # Windows
-C:\Projetos\boneco\app.py
+C:\Projetos\textosaida\app.py
 
 # Mac / Linux
-~/projetos/boneco/app.py
+~/projetos/textosaida/app.py
 ```
 
 ---
@@ -87,7 +108,7 @@ C:\Projetos\boneco\app.py
 Abra o terminal (Prompt de Comando no Windows / Terminal no Mac-Linux) e execute:
 
 ```bash
-pip install streamlit pandas
+pip install streamlit
 ```
 
 ---
@@ -98,13 +119,13 @@ No terminal, navegue até a pasta do arquivo e execute:
 
 ```bash
 # Windows
-cd C:\Projetos\boneco
+cd C:\Projetos\textosaida
 
 # Mac / Linux
-cd ~/projetos/boneco
+cd ~/projetos/textosaida
 
 # Rodar
-streamlit run boneco_app.py
+streamlit run app.py
 ```
 
 ---
@@ -121,12 +142,15 @@ http://localhost:8501
 
 ### Passo 5 – Use a aplicação
 
-| Passo | O que fazer |
+| Clique | O que fazer |
 |---|---|
-| **1º passo** | Preencha os dados da fatura (Data, KW Gasto, Valor, etc.) no formulário lateral |
-| **2º passo** | Clique no botão **Adicionar Registro** para salvar a conta no sistema |
-| 📊 *(extra)* | Acompanhe os painéis coloridos para ver o **Maior Consumo**, **Menor Consumo** e **Média** |
-| 📋 *(extra)* | Role a página para visualizar todo o seu histórico atualizado na tabela interativa |
+| **1º clique** | Digite o texto na área de conteúdo (RF01) — o preview atualiza em tempo real |
+| **2º clique** | Ajuste o tamanho da fonte com o slider (RF02) |
+| **3º clique** | Escolha a cor da fonte e a cor do fundo nos seletores (RF03 / RF04) |
+| **4º clique** | Selecione o componente de destino: Label, Edit ou Memo (RF05) |
+| **✅ *(confirmar)*** | Clique em **Aplicar configurações** para validar e aplicar as alterações (RF06) |
+| **🔍 *(extra)*** | Expanda **Estado atual do objeto** para inspecionar os atributos da instância `TextoSaida` |
+
 ---
 
 *Projeto gerado com Engenharia de Prompt · Python 3 · Streamlit · 2026*
