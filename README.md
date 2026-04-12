@@ -53,13 +53,15 @@ Refatoração de classes (Funcionário e Cliente) usando herança.
 
 # 📂 Estrutura dos projetos:
 
-projeto_Name/
-├── app.py
-├── LayoutApp.png
-├── Requisitos.md
-└── UML.png 
+📦 Raiz do Projeto
+├── 📂 assets/
+│   ├── 🖼️ LayoutApp.png
+│   └── 🖼️ UML_ContaLuz.png
+├── 🐍 app.py
+└── 📖 Readme.MD
 
 - app.py: Arquivo principal com o código-fonte e lógica da aplicação
+- assets: Pasta contendo o layout da documentação e o diagrama de classes
 - Layout.png - Referência visual demonstrando o design da interface do usuário
 - Requisitos.md - Documentação detalhando os requisitos funcionais e não funcionais
 - UML.png - Diagrama UML contendo a modelagem de classes do sistema
@@ -93,7 +95,8 @@ https://github.com/Vytorrodrigues/GenArch-11-Framework-de-Desenvolvimento-Aceler
 # 📚 Referência Acadêmica
 
 - Indicação de livro: Utilizando UML e Padrões: Uma Introdução à Análise e ao Projeto Orientados a Objetos e ao Desenvolvimento Iterativo Autor: Craig Larman
-- Material baseado nos conteúdos da disciplina: Análise e Projeto de Sistemas Curso: Análise e Desenvolvimento de Sistemas
+- Material baseado nos conteúdos da disciplina: Análise e Projeto de Sistemas 
+- Curso: Análise e Desenvolvimento de Sistemas
 - Instituição: UNIPÊ 
 - Professor: Ricardo Roberto de Lima
 

@@ -1,0 +1,229 @@
+{
+  "pacientes": [
+    {
+      "id": 1,
+      "nome": "Maria Silva",
+      "dataNascimento": "1985-03-20"
+    },
+    {
+      "id": 2,
+      "nome": "João Souza",
+      "dataNascimento": "1972-11-05"
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "nome": "Dr. Carlos Mendes",
+      "crm": "CRM-SP 12345"
+    },
+    {
+      "id": 2,
+      "nome": "Dra. Ana Lima",
+      "crm": "CRM-SP 67890"
+    }
+  ],
+  "atendimentos": [
+    {
+      "id": 1,
+      "paciente_id": 1,
+      "medico_id": 1,
+      "dataInicio": "2025-07-01",
+      "quantidadeDias": 10,
+      "remedios": [
+        {
+          "id": 2,
+          "nome": "dipirona",
+          "dosagem": "500",
+          "vezesAoDia": 2,
+          "horariosEscolhidos": [
+            "07:00",
+            "14:30"
+          ],
+          "tomados": {}
+        }
+      ],
+      "planilha": {
+        "data": "2025-07-01",
+        "status": "ativa",
+        "horariosPorDia": {
+          "2025-07-01": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-02": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-03": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-04": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-05": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-06": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-07": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-08": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-09": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ],
+          "2025-07-10": [
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "07:00",
+              "tomado": false
+            },
+            {
+              "remedio_id": 2,
+              "remedio_nome": "dipirona",
+              "dosagem": "500",
+              "horario": "14:30",
+              "tomado": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "paciente_id": 1,
+      "medico_id": 1,
+      "dataInicio": "2026-04-11",
+      "quantidadeDias": 7,
+      "remedios": [],
+      "planilha": null
+    }
+  ],
+  "_seq": {
+    "pacientes": 3,
+    "medicos": 3,
+    "atendimentos": 3,
+    "remedios": 3
+  }
+}
