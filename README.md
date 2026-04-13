@@ -65,17 +65,17 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 
 | # | Sistema | Diagrama | Requisitos | Prompt | App |
 |:---:|---|:---:|:---:|:---:|:---:|
-| [01](./Questao%20-%2001%20-%20Conta%20de%20luz/Readme.md) | Conta de Luz | ✅ | ✅ | ✅ | ✅ |
-| [02](./Questao%20-%2002%20-%20Texto%20Sa%C3%ADda/Readme.md) | Texto Saída | ✅ | ✅ | ✅ | ✅ |
-| [03](./Questao%20-%2003%20-%20Boneco%20em%20Movimento/Readme.md) | Boneco em Movimento | ✅ | ✅ | ✅ | ✅ |
-| [04](./Questao%20-%2004%20-%20Hor%C3%A1rio%20de%20Rem%C3%A9dios/Readme.md) | Horário de Remédios | ✅ | ✅ | ✅ | ✅ |
-| [05](./Questao%20-%2005%20-%20Controle%20de%20gastos/Readme.md) | Controle de Gastos | ✅ | ✅ | ✅ | ✅ |
-| [06](./Questao%20-%2006%20-%20Sistema%20de%20Comandas/Readme.md) | Sistema de Comandas | ✅ | ✅ | ✅ | ✅ |
-| [07](./Questao%20-%2007%20-%20Lista%20de%20Compras/Readme.md) | Lista de Compras | ✅ | ✅ | ✅ | ✅ |
-| [08](./Questao%20-%2008%20-%20Cole%C3%A7%C3%A3o%20de%20CDs/Readme.md) | Coleção de CDs | ✅ | ✅ | ✅ | ✅ |
-| [09](./Questao%20-%2009%20-%20Gerenciador%20de%20CDs/Readme.md) | Gerenciador de CDs | ✅ | ✅ | ✅ | ✅ |
-| [10](./Questao%20-%2010%20-%20Agendamento%20de%20salas/Readme.md) | Agendamento de Salas | ✅ | ✅ | ✅ | ✅ |
-| [11](./Questao%20-%2011%20-%20Heran%C3%A7a%20e%20refatora%C3%A7%C3%A3o/Readme.md) | Herança e Refatoração | ✅ | ✅ | ✅ | ✅ |
+| [01](./Projeto%20-%2001%20-%20Conta%20de%20luz/Readme.md) | Conta de Luz | ✅ | ✅ | ✅ | ✅ |
+| [02](./Projeto%20-%2002%20-%20Texto%20Sa%C3%ADda/Readme.md) | Texto Saída | ✅ | ✅ | ✅ | ✅ |
+| [03](./Projeto%20-%2003%20-%20Boneco%20em%20Movimento/Readme.md) | Boneco em Movimento | ✅ | ✅ | ✅ | ✅ |
+| [04](./Projeto%20-%2004%20-%20Hor%C3%A1rio%20de%20Rem%C3%A9dios/Readme.md) | Horário de Remédios | ✅ | ✅ | ✅ | ✅ |
+| [05](./Projeto%20-%2005%20-%20Controle%20de%20gastos/Readme.md) | Controle de Gastos | ✅ | ✅ | ✅ | ✅ |
+| [06](./Projeto%20-%2006%20-%20Sistema%20de%20Comandas/Readme.md) | Sistema de Comandas | ✅ | ✅ | ✅ | ✅ |
+| [07](./Projeto%20-%2007%20-%20Lista%20de%20Compras/Readme.md) | Lista de Compras | ✅ | ✅ | ✅ | ✅ |
+| [08](./Projeto%20-%2008%20-%20Cole%C3%A7%C3%A3o%20de%20CDs/Readme.md) | Coleção de CDs | ✅ | ✅ | ✅ | ✅ |
+| [09](./Projeto%20-%2009%20-%20Gerenciador%20de%20CDs/Readme.md) | Gerenciador de CDs | ✅ | ✅ | ✅ | ✅ |
+| [10](./Projeto%20-%2010%20-%20Agendamento%20de%20salas/Readme.md) | Agendamento de Salas | ✅ | ✅ | ✅ | ✅ |
+| [11](./Projeto%20-%2011%20-%20Heran%C3%A7a%20e%20refatora%C3%A7%C3%A3o/Readme.md) | Herança e Refatoração | ✅ | ✅ | ✅ | ✅ |
 
 > Clique no número da questão para acessar o detalhamento completo com diagrama, requisitos, prompt e instruções de execução.
 
@@ -86,28 +86,28 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 ```
 📦 analise-projeto-sistemas-2026/
 │
-├── 📁 Questao - 01 - Conta de luz/
+├── 📁 Projeto - 01 - Conta de luz/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX01.png
 │   │   └── img-projeto.png
 │   ├── app.py
 │   └── Readme.md
 │
-├── 📁 Questao - 02 - Texto Saída/
+├── 📁 Projeto - 02 - Texto Saída/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX02.png
 │   │   └── img-projeto.png
 │   ├── app.py
 │   └── Readme.md
 │
-├── 📁 Questao - 03 - Boneco em Movimento/
+├── 📁 Projeto - 03 - Boneco em Movimento/
 │   ├── 📁 assets/
 │   │   ├── Diagrama_de_classes_EX03.jpg
 │   │   └── Tela.png
 │   ├── app.py
 │   └── Readme.md
 │
-├── 📁 Questao - 04 - Horário de Remédios/
+├── 📁 Projeto - 04 - Horário de Remédios/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de classes - EX04.jpg
 │   │   └── img-projeto.png
@@ -115,21 +115,21 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 │   ├── medicamentos_data.json
 │   └── Readme.md
 │
-├── 📁 Questao - 05 - Controle de gastos/
+├── 📁 Projeto - 05 - Controle de gastos/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de classes - EX05.jpeg
 │   │   └── img-projeto.png
 │   ├── app.py
 │   └── Readme.md
 │
-├── 📁 Questao - 06 - Sistema de Comandas/
+├── 📁 Projeto - 06 - Sistema de Comandas/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX06.jpeg
 │   │   └── img-projeto.png
 │   ├── app.py
 │   └── Readme.md
 │
-├── 📁 Questao - 07 - Lista de Compras/
+├── 📁 Projeto - 07 - Lista de Compras/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX07.jpeg
 │   │   └── img-projeto.png
@@ -137,7 +137,7 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 │   ├── lista_compras_data.json
 │   └── Readme.md
 │
-├── 📁 Questao - 08 - Coleção de CDs/
+├── 📁 Projeto - 08 - Coleção de CDs/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX08.jpeg
 │   │   └── img-project.png
@@ -145,7 +145,7 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 │   ├── colecao_data.json
 │   └── Readme.md
 │
-├── 📁 Questao - 09 - Gerenciador de CDs/
+├── 📁 Projeto - 09 - Gerenciador de CDs/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX09.jpeg
 │   │   └── img-project.png
@@ -154,7 +154,7 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 │   ├── data.json
 │   └── Readme.md
 │
-├── 📁 Questao - 10 - Agendamento de salas/
+├── 📁 Projeto - 10 - Agendamento de salas/
 │   ├── 📁 assets/
 │   │   ├── Diagrama de Classes - EX10.jpeg
 │   │   ├── dashboard.png
@@ -163,7 +163,7 @@ Este repositório reúne todos os artefatos da 1ª Avaliação da disciplina de 
 │   ├── agendamento_data.json
 │   └── Readme.md
 │
-├── 📁 Questao - 11 - Herança e refatoração/
+├── 📁 Projeto - 11 - Herança e refatoração/
 │   ├── 📁 imgages/
 │   │   ├── Diagrama de classes - EX11.jpg
 │   │   └── img-projeto.png
@@ -192,7 +192,7 @@ pip install streamlit
 ### Rodar uma questão
 
 ```bash
-cd "Questao - 01 - Conta de luz"
+cd "Projeto - 01 - Conta de luz"
 streamlit run app.py
 ```
 
